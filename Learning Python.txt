@@ -1,0 +1,33 @@
+class Doge():
+    name = None
+    age = None
+    isHappy = None
+
+    def set_data(self, name, age, isHappy):
+        self.name = name
+        self.age = age
+        self.isHappy = isHappy
+
+    def get_data(self):
+        print(self.name,"age", self.age,",", "Happy: ", self.isHappy,".")
+
+doge1 = Doge()
+doge1.set_data("Bobik", 14, True)
+
+doge2 = Doge()
+doge2.set_data("For", 7, False)
+
+doge3 = Doge()
+doge3.set_data("Fenix", 4, True)
+
+doge4 = Doge()
+doge4.set_data("Jolly", 19, False)
+
+doge5 = Doge()
+doge5.set_data("White", 2, False)
+
+doge1.get_data()
+doge2.get_data()
+doge3.get_data()
+doge4.get_data()
+doge5.get_data()
